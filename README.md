@@ -1,5 +1,7 @@
 # Ex-01-Linux-Commands
 
+#### REG NUMBER: 212222040184
+#### NAME: V YASHWANTH RAJA DURAI
 
 ## Aim:
 
@@ -223,25 +225,69 @@ The find command is used to find a particular file within a directory.
 Syntax: find.-name”*.pdf”
 
 
+###  Writing a Bash Script in Mousepad
+#### Open Mousepad
+```
+mousepad myscript.sh &
+```
+
+## Write the Bash Script
+
+```
+#!/bin/bash 
+
+echo "Current Directory:"
+pwd
+
+echo "Files in this directory:"
+ls
+
+echo "Current Date and Time:"
+date
+
+read -p "Enter first number: " num1
+read -p "Enter second number: " num2
+
+sum=$((num1 + num2))
+diff=$((num1 - num2))
+prod=$((num1 * num2))
+quot=$((num1 / num2))
+rem=$((num1 % num2))
+
+echo "Sum: $sum"
+echo "Difference: $diff"
+echo "Product: $prod"
+echo "Quotient: $quot"
+echo "Remainder: $rem"
 
 
+```
+##  Make the Script Executable
+```
+chmod +x myscript.sh
+```
+
+## Run the Script
+```
+./myscript.sh
+```
 
 
+## OUTPUT
 
 
+Configuration of Kali Linux on Oracle Virtual Box :
 
+![image](https://github.com/user-attachments/assets/c8cefd3c-b7b5-48fa-a2f6-85db776cf094)
 
-
-
-
-
-
-
-
-
+Output : 
+![image](https://github.com/user-attachments/assets/cc481926-bcfc-4901-b74d-7f5c76beabd5)
+![image](https://github.com/user-attachments/assets/ddc08a53-e155-4a5c-afa4-d4a9429696d3)
+![WhatsApp Image 2025-02-26 at 13 59 24_1c603799](https://github.com/user-attachments/assets/bdb5a52e-f093-4767-9cb1-0c4ffc8fe11f)
+![WhatsApp Image 2025-02-26 at 13 59 32_6f105c88](https://github.com/user-attachments/assets/73eb14f7-96b1-4685-82de-234802e0831b)
 
 
 
 ## Result:
 
-Thus, the execution of various Linux commands is executed successfully using Ubuntu OS.
+Thus, the execution of various Linux commands is executed successfully using VMware workstation.
